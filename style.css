@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+#header-banner {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.349),
+      rgba(5, 5, 5, 0.247) 100%
+    ),
+    url(images/banner-image.png);
+  height: 600px;
+  width: 1300px;
+  background-position: center;
+  margin: 60px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#header-banner .banner-content h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  font-family: "Merriweather", serif;
+  opacity: 0.9;
+}
+#header-banner .banner-content h1 {
+  font-size: 73px;
+  color: white;
+  margin-top: 20px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+/* new year section */
+#happy-new-year {
+  margin: 100px 399px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#happy-new-year h1 {
+  font-size: 88px;
+  color: rgb(231, 0, 0);
+  margin-bottom: 47px;
+}
+#happy-new-year p {
+  font-size: 25px;
+  color: rgb(228, 32, 32);
+  margin-bottom: 16px;
+}
+#happy-new-year h3 {
+  font-size: 48px;
+  color: rgb(19, 14, 14);
+  margin-bottom: 46px;
+}
+/* new year section end */
+
+/* WELCOME BANNER */
+#welcome-banner {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  background: linear-gradient(
+      0deg,
+      rgba(5, 5, 5, 0.438),
+      rgba(5, 5, 5, 0.438) 100%
+    ),
+    url(images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+#welcome-banner .welcome-banner-content {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 90px 128px;
+}
+#welcome-banner .welcome-banner-content .w-l h1{
+ font-size: 64px;
+ color: rgba(255, 255, 255, 0.932);
+ letter-spacing: 4px;
+ margin-bottom: 30px;
+}
+#welcome-banner .welcome-banner-content .w-l p{
+ font-size: 14px;
+ color: rgba(255, 255, 255, 0.651);
+ margin-right: 130px;
+}
+#welcome-banner .welcome-banner-content .w-l h5{
+ font-size: 20px;
+ color: rgba(255, 255, 255, 0.938);
+ margin-top: 40px;
+ margin-left: 20px;
+}
+#welcome-banner .welcome-banner-content .w-r img{
+height: 465px;
+}
+
+/* welcome banner ends */
+
+/* place banner */
+#place-banner {
+    width: 1320px;
+    height: 500px;
+    margin: 100px auto;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 39, 219, 0.356),
+        rgba(255, 0, 255, 0.021) 100%
+      );
+   
+    border-radius: 15px;
+  }
+
+  #place-banner .place-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 386px;
+    
+    
+  }
+  #place-banner .place-content h1{
+    line-height: 200%;
+    font-size: 29px;
+
+    
+  }
+  #place-banner .place-content h1 span{
+    color: rgb(235, 2, 2);
+    
+    
+  }
+  #place-banner .place-content button{
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: red;
+    margin-top: 40px;
+    
+    
+  }
+/* place banner end  */
