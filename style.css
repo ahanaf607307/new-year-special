@@ -87,78 +87,268 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   padding: 90px 128px;
 }
-#welcome-banner .welcome-banner-content .w-l h1{
- font-size: 64px;
- color: rgba(255, 255, 255, 0.932);
- letter-spacing: 4px;
- margin-bottom: 30px;
+#welcome-banner .welcome-banner-content .w-l h1 {
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.932);
+  letter-spacing: 4px;
+  margin-bottom: 30px;
 }
-#welcome-banner .welcome-banner-content .w-l p{
- font-size: 14px;
- color: rgba(255, 255, 255, 0.651);
- margin-right: 130px;
+#welcome-banner .welcome-banner-content .w-l p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.651);
+  margin-right: 130px;
 }
-#welcome-banner .welcome-banner-content .w-l h5{
- font-size: 20px;
- color: rgba(255, 255, 255, 0.938);
- margin-top: 40px;
- margin-left: 20px;
+#welcome-banner .welcome-banner-content .w-l h5 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.938);
+  margin-top: 40px;
+  margin-left: 20px;
 }
-#welcome-banner .welcome-banner-content .w-r img{
-height: 465px;
+#welcome-banner .welcome-banner-content .w-r img {
+  height: 465px;
 }
 
 /* welcome banner ends */
 
 /* place banner */
 #place-banner {
-    width: 1320px;
-    height: 500px;
-    margin: 100px auto;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 39, 219, 0.356),
-        rgba(255, 0, 255, 0.021) 100%
-      );
-   
-    border-radius: 15px;
-  }
+  width: 1320px;
+  height: 500px;
+  margin: 100px auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 39, 219, 0.356),
+    rgba(255, 0, 255, 0.021) 100%
+  );
 
-  #place-banner .place-content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 100px 386px;
-    
-    
-  }
-  #place-banner .place-content h1{
-    line-height: 200%;
-    font-size: 29px;
+  border-radius: 15px;
+}
 
-    
-  }
-  #place-banner .place-content h1 span{
-    color: rgb(235, 2, 2);
-    
-    
-  }
-  #place-banner .place-content button{
-    padding: 10px 20px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    background-color: red;
-    margin-top: 40px;
-    
-    
-  }
+#place-banner .place-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 386px;
+}
+#place-banner .place-content h1 {
+  line-height: 200%;
+  font-size: 29px;
+}
+#place-banner .place-content h1 span {
+  color: rgb(235, 2, 2);
+}
+#place-banner .place-content button {
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: red;
+  margin-top: 40px;
+}
 /* place banner end  */
+
+/* comming soon page start */
+#comming-soon-page {
+  width: 1320px;
+  height: 463px;
+
+  margin: 100px auto;
+}
+
+#comming-soon-page .comming-soon-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 1px 0px gray;
+}
+#comming-soon-page .comming-soon-content .left {
+  width: 33%;
+  padding-left: 30px;
+}
+#comming-soon-page .comming-soon-content .left h3 {
+  color: red;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+#comming-soon-page .comming-soon-content .left h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+#comming-soon-page .comming-soon-content .left p {
+  color: gray;
+  margin-right: 60px;
+  margin-bottom: 12px;
+}
+#comming-soon-page .comming-soon-content .mid {
+  width: 33%;
+}
+#comming-soon-page .comming-soon-content .mid img {
+  width: 100%;
+  border-radius: 50%;
+  border: 25px solid red;
+}
+
+#comming-soon-page .comming-soon-content .right {
+  width: 33%;
+  padding: 0 30px 0 100px;
+}
+#comming-soon-page .comming-soon-content .right h1 {
+  color: red;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+#comming-soon-page .comming-soon-content .right p {
+  color: gray;
+}
+/* comming soon page ends */
+
+/* functional section start */
+
+#functional-section {
+  width: 1068px;
+  height: 260px;
+  margin: 150px auto;
+}
+#functional-section .f-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#functional-section .f-content h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+#functional-section .f-content h1 {
+  font-size: 75px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#functional-section .f-content h1 span {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#functional-section .f-content p {
+  color: gray;
+  padding: 0 100px;
+  line-height: 25px;
+}
+
+/* functional section ends */
+
+/* 50% dis sec start */
+#dis-sec {
+  width: 1320px;
+  height: 463px;
+position: relative;
+  margin: 100px auto;
+}
+#dis-sec .bottom-img{
+ position: absolute;
+ top: 75%;
+}
+#dis-sec .dis-content{
+ 
+}
+#dis-sec  .giftbox {
+ position: relative;
+ z-index: 1;
+ width: 674.82px;
+height: 577.96px;
+}
+#dis-sec  .girl{
+    position: relative;
+    z-index: 1;
+    top: -49.81%;
+    left: 16.1%;
+}
+#dis-sec  .disImg{
+    position: relative;
+    z-index: 1;
+    top: -135.81%;
+    left: 57.1%;
+}
+
+
+/* 50% dis sec ends */
+
+/* portfolio section start */
+#portfolio-section{
+    width: 1320px;
+height: 986.07px;
+margin: 180px auto;
+}
+#portfolio-section .portfolio-content{
+  
+  align-items: center;
+  
+  text-align: center;
+}
+#portfolio-section .portfolio-content h3{
+  
+  color: red;
+  font-size: 24px;
+  margin-bottom: 15px;
+  
+}
+#portfolio-section .portfolio-content h1{
+  
+  color: rgb(0, 0, 0);
+  font-size: 42px;
+  margin-bottom: 15px;
+
+}
+#portfolio-section .portfolio-content p{
+  
+  color: rgb(143, 143, 143);
+  font-size: 14px;
+  margin-bottom: 30px;
+
+}
+
+
+/* portfolio section ends */
+
+/* card container */
+
+    #card-container{
+        width: 1320px;
+        margin: 10px auto;
+    }
+    #card-container .cards{
+        width: 1320px;
+       
+       
+        display: flex;
+        justify-content: space-between;
+    }
+    #card-container .cards .card{
+       width:440px;
+      
+       padding: 10px;
+    }
+    #card-container .cards .card img{
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 2px 10px 0 rgba(128, 128, 128, 0.521);
+      border-radius: 15px;
+    }
+
+    
+
+/* card container ends */
